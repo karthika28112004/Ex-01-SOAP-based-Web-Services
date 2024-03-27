@@ -11,7 +11,8 @@ To create and execute SOAP-based web service program using server, client and cl
 Open NetBeans IDE.
 #### Step 2:
 Click File->New Project. Choose Java Web and then Web Application and click Next.
-![2](https://github.com/DrMalathiSaravanan/Ex-03-SOAP-based-Web-Services/assets/139700114/53b21d93-3784-4a69-b64a-ac255b66a132)
+![image](https://github.com/karthika28112004/Ex-01-SOAP-based-Web-Services/assets/128035087/a050f285-8941-4e69-9be2-2846977c8d0f)
+
 
 
 
@@ -20,7 +21,8 @@ Click File->New Project. Choose Java Web and then Web Application and click Next
 Give your Project a suitable Name and then click Next.
 #### Step 4:
 In the next window, make sure you have selected Server as “GlassFish Server” and Java EE Version as “Java EE 7 Web”. Click Finish.
- ![4](https://github.com/DrMalathiSaravanan/Ex-03-SOAP-based-Web-Services/assets/139700114/ba86ef64-1e67-4eba-9935-96d4b158fcde)
+![image](https://github.com/karthika28112004/Ex-01-SOAP-based-Web-Services/assets/128035087/d2ed74f8-058b-4ee6-a295-a4238a594a0c)
+
 
  
 
@@ -31,14 +33,16 @@ Your new project will appear in the Projects tab in the left-most part of NetBea
 #### Step 6:
 Right click your Project and select New->Web-Service.
 
-![6](https://github.com/DrMalathiSaravanan/Ex-03-SOAP-based-Web-Services/assets/139700114/e45c5bec-b36c-4b91-87c3-f49ac1c84604)
+![image](https://github.com/karthika28112004/Ex-01-SOAP-based-Web-Services/assets/128035087/d9cc9111-579f-4234-8490-6bf5794badff)
+
 
 
 
 #### Step 7:
 In the new window, give your web service a name and a package name. Click Finish.
  
- ![7](https://github.com/DrMalathiSaravanan/Ex-03-SOAP-based-Web-Services/assets/139700114/f6e330f4-a62a-44bb-9ce1-53e54db577f4)
+![image](https://github.com/karthika28112004/Ex-01-SOAP-based-Web-Services/assets/128035087/f4a78d06-8755-4669-8277-099f47b15528)
+
 
 
 
@@ -48,7 +52,7 @@ A new coding tab will open that contains your web service.
 #### Step 9:
 Expand the folder “Web Services” under your project. You should see your newly created web service. Right-click on it and choose “Add Operation”.
 
-![9](https://github.com/DrMalathiSaravanan/Ex-03-SOAP-based-Web-Services/assets/139700114/c0dc772c-c5ff-466f-bc8a-908a1f956291)
+![image](https://github.com/karthika28112004/Ex-01-SOAP-based-Web-Services/assets/128035087/76b4a986-cea6-4682-a32f-bbc17c9b7cb4)
 
 
 
@@ -58,13 +62,15 @@ A new window to add operation will appear. In that give Name, Return Type to you
  
 operation. (Since we are demonstrating simple addition, we use two arguments/parameters.) Once you are happy with your parameters/arguments, click OK.
 
-![10](https://github.com/DrMalathiSaravanan/Ex-03-SOAP-based-Web-Services/assets/139700114/2e04e804-2aad-4074-87cf-2a9ed8b0fd78)
+![image](https://github.com/karthika28112004/Ex-01-SOAP-based-Web-Services/assets/128035087/b86fdcd7-3c8e-4049-abfd-25f3812ec144)
+
 
 
 #### Step 11:
 NetBeans will automatically generate the skeleton for the operation which will be like,
 
-![11](https://github.com/DrMalathiSaravanan/Ex-03-SOAP-based-Web-Services/assets/139700114/eaf6cf88-92e2-478f-a6ac-f800251e6bd5)
+![image](https://github.com/karthika28112004/Ex-01-SOAP-based-Web-Services/assets/128035087/e989a7db-b1e6-4a51-9dea-f42088daa335)
+
 
 
 
@@ -77,7 +83,8 @@ Deploying might take time depending on the size of the project.
 
 ### Step 14:
 Once your project is successfully deployed, right-click on your web service name and select “Test Web Service”
- ![14](https://github.com/DrMalathiSaravanan/Ex-03-SOAP-based-Web-Services/assets/139700114/4c82ecec-fe36-4826-96bb-37dd25bb0f75)
+![image](https://github.com/karthika28112004/Ex-01-SOAP-based-Web-Services/assets/128035087/4c570e88-c194-47af-b020-b292e249cb13)
+
 
  
 
@@ -85,13 +92,15 @@ Once your project is successfully deployed, right-click on your web service name
 #### Step 15:
 A new browser window will appear which will look like this
 
-![15](https://github.com/DrMalathiSaravanan/Ex-03-SOAP-based-Web-Services/assets/139700114/1f23a946-d82a-440d-9435-14ea8a0d4907)
+![image](https://github.com/karthika28112004/Ex-01-SOAP-based-Web-Services/assets/128035087/3df5bc59-c447-4440-bec0-78290d7fd051)
+
 
 
 
 #### Step 16: 
 You can give inputs to your web service and check whether it is working properly or not. If it is working properly, you will get a page like this
- ![16](https://github.com/DrMalathiSaravanan/Ex-03-SOAP-based-Web-Services/assets/139700114/4a6cac39-12aa-42c7-8495-77e777e89bcb)
+
+![image](https://github.com/karthika28112004/Ex-01-SOAP-based-Web-Services/assets/128035087/c537deef-47e9-4803-b42c-37112bc1568e)
 
  
 ### Client-side:
@@ -102,7 +111,8 @@ Create a new Java Web Project in NetBeans. (Follow Steps 1-5 as in section 1.1)
 #### Step 2:
 Right-click on the project and select New->Web Service Client.
 
-![c2](https://github.com/DrMalathiSaravanan/Ex-03-SOAP-based-Web-Services/assets/139700114/3e65b81f-b2c5-4dac-af34-5b3850020e56)
+![image](https://github.com/karthika28112004/Ex-01-SOAP-based-Web-Services/assets/128035087/3d62dde3-46f0-44ca-b819-988b75e30cff)
+
 
 
 
@@ -111,7 +121,8 @@ A new window will appear. Select “Project” under the heading “Specify the 
 
 #### Step 4: 
 A new window will appear, in that carefully choose appropriate web service and click OK.
- ![c4](https://github.com/DrMalathiSaravanan/Ex-03-SOAP-based-Web-Services/assets/139700114/b4050bbd-3c0c-4c57-b6cb-27325f140340)
+![image](https://github.com/karthika28112004/Ex-01-SOAP-based-Web-Services/assets/128035087/420c5a28-e912-4f49-888f-f6e90c0d21a4)
+
 
  
 #### Step 5:
